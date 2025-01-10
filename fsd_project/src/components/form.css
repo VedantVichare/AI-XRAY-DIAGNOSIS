@@ -1,0 +1,151 @@
+/* Main container styling */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    min-height: 100vh;
+    background-color: #000; /* Black background */
+}
+
+/* Title styling */
+.form-title {
+    color: #fff; /* White text */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* Form styling with a glow effect */
+.form-style {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    background: rgba(232, 229, 229, 0.1); /* Semi-transparent white */
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.2);
+    animation: glow-animation 3s ease infinite alternate;
+}
+
+/* Keyframes for glow animation */
+@keyframes glow-animation {
+    0% {
+        box-shadow: 0 0 10px rgba(132, 250, 176, 0.5), 0 0 20px rgba(132, 250, 176, 0.5);
+    }
+    50% {
+        box-shadow: 0 0 20px rgba(141, 211, 244, 0.6), 0 0 30px rgba(141, 211, 244, 0.6);
+    }
+    100% {
+        box-shadow: 0 0 15px rgba(252, 203, 144, 0.5), 0 0 25px rgba(252, 203, 144, 0.5);
+    }
+}
+
+/* Input field styling */
+
+
+
+/* Input field styling */
+.input-field {
+   
+    font-size: 1.2rem;
+    padding: 25px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color:white;
+    background: #ffffff;
+    box-shadow: 0 0 15px rgba(200, 200, 200, 0.3);
+    transition: box-shadow 0.2s;
+}
+
+.input-field:focus {
+    box-shadow: 0 0 15px rgba(132, 250, 176, 0.8);
+}
+
+
+
+/* Submit button styling */
+.submit-button {
+    font-size: 1.2rem;
+    width:101%;
+    padding: 15px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    background: linear-gradient(90deg, #8e44ad, #3498db);
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.submit-button:hover {
+    background: linear-gradient(90deg, #3498db, #8e44ad);
+}
+
+.result-container {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #fff;
+  }
+  
+  .result-container h2 {
+    display: flex;
+    align-items: center;
+    color:#fff;
+  }
+  
+  .result-container h2 svg {
+    margin-right: 10px;
+    color: #8e44ad;
+   
+  }
+  
+
+  .login-message {
+    color: #fff; /* White text for login message */
+  }
+
+
+.form-container .input-field {
+    color: black;
+    background:white; /* Add specificity with form-container */
+    width: 95%;
+    padding: 15px;
+    margin-top: 10px;
+  }
+  
+
+
+
+/* Container for the image */
+.image-container {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Ensure image doesn't overflow the container */
+  }
+  
+  /* Style for the image */
+  .result-image {
+    width: 100%; /* Make the image fit the container width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensure the entire image is visible without distortion */
+    transition: transform 0.3s ease; /* Smooth transition for zoom */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .result-image:hover {
+    transform: scale(1.5); /* Zoom in on hover */
+    cursor: pointer; /* Show a pointer cursor */
+  }
+    
+
