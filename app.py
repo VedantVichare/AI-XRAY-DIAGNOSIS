@@ -25,7 +25,7 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(SALIENT_FOLDER, exist_ok=True)
 
 # Load the trained model
-model = tf.keras.models.load_model("C:\\Users\\vedan\\Downloads\\pneumonia-detection\\flask-backend\\model_3.h5")
+model = tf.keras.models.load_model("model_3.h5")
 
 # MongoDB setup
 # client = MongoClient("mongodb://localhost:27017/")
