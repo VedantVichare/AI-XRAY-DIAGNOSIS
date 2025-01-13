@@ -21,3 +21,16 @@ Visualization: Saliency map for interpretability<br>
 Training Accuracy: 90.27%<br>
 Test Accuracy: 90.3%<br>
 Performance Metrics: Balanced sensitivity and specificity for robust diagnostic capability.<br>
+
+## Output
+
+![X-ray Image](https://github.com/VedantVichare/AI-XRAY-DIAGNOSIS/blob/d61de5e4adfce2c76554e6565e16f418339a408b/Project_Pictures/Screenshot%202024-11-11%20091504.png)
+![X-ray Image](https://github.com/VedantVichare/AI-XRAY-DIAGNOSIS/blob/d61de5e4adfce2c76554e6565e16f418339a408b/Project_Pictures/Screenshot%202024-11-11%20091529.png)
+![X-ray Image](https://github.com/VedantVichare/AI-XRAY-DIAGNOSIS/blob/d61de5e4adfce2c76554e6565e16f418339a408b/Project_Pictures/Screenshot%202024-11-11%20091552.png)
+![X-ray Image](https://github.com/VedantVichare/AI-XRAY-DIAGNOSIS/blob/d61de5e4adfce2c76554e6565e16f418339a408b/Project_Pictures/Screenshot%202024-11-11%20091613.png)
+![X-ray Image](https://github.com/VedantVichare/AI-XRAY-DIAGNOSIS/blob/d61de5e4adfce2c76554e6565e16f418339a408b/Project_Pictures/Screenshot%202024-11-11%20091633.png)
+![X-ray Image](https://github.com/VedantVichare/AI-XRAY-DIAGNOSIS/blob/d61de5e4adfce2c76554e6565e16f418339a408b/Project_Pictures/Screenshot%202024-11-11%20091644.png)
+![X-ray Image](https://github.com/VedantVichare/AI-XRAY-DIAGNOSIS/blob/d61de5e4adfce2c76554e6565e16f418339a408b/Project_Pictures/Screenshot%202024-11-11%20092109.png)
+![X-ray Image](https://github.com/VedantVichare/AI-XRAY-DIAGNOSIS/blob/d61de5e4adfce2c76554e6565e16f418339a408b/Project_Pictures/Screenshot%202024-11-11%20091741.png)
+![X-ray Image](https://github.com/VedantVichare/AI-XRAY-DIAGNOSIS/blob/d61de5e4adfce2c76554e6565e16f418339a408b/Project_Pictures/Screenshot%202024-11-11%20091800.png)
+![X-ray Image](https://github.com/VedantVichare/AI-XRAY-DIAGNOSIS/blob/d61de5e4adfce2c76554e6565e16f418339a408b/Project_Pictures/Screenshot%202024-11-11%20091811.png)
